@@ -1,0 +1,98 @@
+{
+  "store_name": "ShopSphere",
+  "tagline": "Everything you need, delivered with care.",
+  "customer_care": {
+    "phone": "1800-123-4567",
+    "email": "support@shopsphere.example.com",
+    "chat_hours": "24/7 via this chatbot; live agent 8 AM - 11 PM IST",
+    "whatsapp": "+91-98765-43210"
+  },
+  "online_store_hours": "Open 24/7 - online store never closes",
+  "branches": [
+    {
+      "branch_id": "BR001",
+      "city": "Chennai",
+      "name": "ShopSphere Express - Anna Nagar",
+      "address": "23 2nd Avenue, Anna Nagar, Chennai, TN 600040",
+      "timings": "Mon-Sat: 10:00 AM - 9:00 PM, Sun: 11:00 AM - 7:00 PM",
+      "phone": "044-2345-6789",
+      "services": ["In-store pickup", "Returns drop-off", "Product demo"]
+    },
+    {
+      "branch_id": "BR002",
+      "city": "Bengaluru",
+      "name": "ShopSphere Hub - Indiranagar",
+      "address": "100 Ft Road, Indiranagar, Bengaluru, KA 560038",
+      "timings": "Mon-Sun: 10:00 AM - 9:30 PM",
+      "phone": "080-2345-6789",
+      "services": ["In-store pickup", "Returns drop-off", "Product demo", "Express delivery hub"]
+    },
+    {
+      "branch_id": "BR003",
+      "city": "Mumbai",
+      "name": "ShopSphere Hub - Andheri",
+      "address": "Linking Road, Andheri West, Mumbai, MH 400053",
+      "timings": "Mon-Sat: 10:00 AM - 9:00 PM, Sun: Closed",
+      "phone": "022-2345-6789",
+      "services": ["In-store pickup", "Returns drop-off"]
+    },
+    {
+      "branch_id": "BR004",
+      "city": "Delhi",
+      "name": "ShopSphere Flagship - Connaught Place",
+      "address": "Block A, Connaught Place, New Delhi, DL 110001",
+      "timings": "Mon-Sun: 10:00 AM - 10:00 PM",
+      "phone": "011-2345-6789",
+      "services": ["In-store pickup", "Returns drop-off", "Product demo", "Premium support desk"]
+    },
+    {
+      "branch_id": "BR005",
+      "city": "Hyderabad",
+      "name": "ShopSphere Express - Banjara Hills",
+      "address": "Road No. 12, Banjara Hills, Hyderabad, TS 500034",
+      "timings": "Mon-Sat: 10:30 AM - 8:30 PM, Sun: 11:00 AM - 6:00 PM",
+      "phone": "040-2345-6789",
+      "services": ["In-store pickup", "Returns drop-off"]
+    }
+  ],
+  "shipping_info": {
+    "standard_shipping": "Free for orders above INR 499, otherwise INR 49",
+    "express_shipping": "INR 149 flat, delivery in 1-2 days (select cities)",
+    "international_shipping": "Not currently available",
+    "cod_available": true,
+    "cod_fee": "INR 25 for orders below INR 1000, free above that"
+  },
+  "payment_methods": ["UPI", "Credit Card", "Debit Card", "Net Banking", "Cash on Delivery", "EMI on orders above INR 3000", "Gift Cards", "Wallets (Paytm, PhonePe, Amazon Pay)"],
+  "loyalty_program": {
+    "name": "ShopSphere+ Rewards",
+    "description": "Earn 1 point per INR 50 spent. Redeem 100 points for INR 50 discount. Free membership.",
+    "tiers": ["Silver (0+ pts)", "Gold (2000+ pts)", "Platinum (5000+ pts)"]
+  },
+  "faqs": [
+    {
+      "question": "How do I track my order?",
+      "answer": "Go to 'My Orders' section or ask this chatbot with your order ID to get real-time tracking status."
+    },
+    {
+      "question": "Do you offer international shipping?",
+      "answer": "Currently ShopSphere only ships within India. International shipping is planned for the future."
+    },
+    {
+      "question": "How can I change my delivery address after placing an order?",
+      "answer": "Address changes are possible only before the order is shipped. Contact support immediately with your order ID."
+    },
+    {
+      "question": "Is Cash on Delivery available everywhere?",
+      "answer": "COD is available in most serviceable pin codes, with a small fee for orders below INR 1000."
+    },
+    {
+      "question": "How do I contact a human agent?",
+      "answer": "Call 1800-123-4567 or use the live chat option available 8 AM - 11 PM IST. WhatsApp support is also available."
+    }
+  ],
+  "social_media": {
+    "instagram": "@shopsphere.official",
+    "twitter": "@shopsphere",
+    "facebook": "facebook.com/shopsphereofficial"
+  }
+}

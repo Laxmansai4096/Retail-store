@@ -1,0 +1,253 @@
+2026-06-16 14:45:23 | ERROR    | app | Failed to initialize orchestrator: AZURE_AI_FOUNDRY_PROJECT_ENDPOINT is not set. Set it in your .env file (see .env.example).
+Traceback (most recent call last):
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\app.py", line 138, in get_orchestrator
+    st.session_state.orchestrator = Orchestrator()
+                                    ^^^^^^^^^^^^^^
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\orchestrator.py", line 62, in __init__
+    self.inventory_agent = InventoryAgent(self.project_endpoint, self.model_deployment_name)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\base_agent.py", line 51, in __init__
+    raise EnvironmentError(
+OSError: AZURE_AI_FOUNDRY_PROJECT_ENDPOINT is not set. Set it in your .env file (see .env.example).
+
+2026-06-16 15:12:37 | ERROR    | app | Failed to initialize orchestrator: AZURE_AI_FOUNDRY_PROJECT_ENDPOINT is not set. Set it in your .env file (see .env.example).
+Traceback (most recent call last):
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\app.py", line 138, in get_orchestrator
+    st.session_state.orchestrator = Orchestrator()
+                                    ^^^^^^^^^^^^^^
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\orchestrator.py", line 62, in __init__
+    self.inventory_agent = InventoryAgent(self.project_endpoint, self.model_deployment_name)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\base_agent.py", line 51, in __init__
+    raise EnvironmentError(
+OSError: AZURE_AI_FOUNDRY_PROJECT_ENDPOINT is not set. Set it in your .env file (see .env.example).
+
+2026-06-16 15:15:14 | ERROR    | app | Failed to initialize orchestrator: AZURE_AI_FOUNDRY_PROJECT_ENDPOINT is not set. Set it in your .env file (see .env.example).
+Traceback (most recent call last):
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\app.py", line 138, in get_orchestrator
+    st.session_state.orchestrator = Orchestrator()
+                                    ^^^^^^^^^^^^^^
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\orchestrator.py", line 62, in __init__
+    self.inventory_agent = InventoryAgent(self.project_endpoint, self.model_deployment_name)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\base_agent.py", line 51, in __init__
+    raise EnvironmentError(
+OSError: AZURE_AI_FOUNDRY_PROJECT_ENDPOINT is not set. Set it in your .env file (see .env.example).
+
+2026-06-16 15:15:59 | ERROR    | app | Failed to initialize orchestrator: AZURE_AI_FOUNDRY_PROJECT_ENDPOINT is not set. Set it in your .env file (see .env.example).
+Traceback (most recent call last):
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\app.py", line 138, in get_orchestrator
+    st.session_state.orchestrator = Orchestrator()
+                                    ^^^^^^^^^^^^^^
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\orchestrator.py", line 62, in __init__
+    self.inventory_agent = InventoryAgent(self.project_endpoint, self.model_deployment_name)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\base_agent.py", line 51, in __init__
+    raise EnvironmentError(
+OSError: AZURE_AI_FOUNDRY_PROJECT_ENDPOINT is not set. Set it in your .env file (see .env.example).
+
+2026-06-16 15:16:51 | ERROR    | app | Failed to initialize orchestrator: No module named 'azure'
+Traceback (most recent call last):
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\app.py", line 137, in get_orchestrator
+    from agents.orchestrator import Orchestrator
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\orchestrator.py", line 21, in <module>
+    from azure.ai.projects import AIProjectClient
+ModuleNotFoundError: No module named 'azure'
+
+2026-06-16 15:20:36 | ERROR    | app | Failed to initialize orchestrator: AZURE_AI_FOUNDRY_PROJECT_ENDPOINT is not set. Set it in your .env file (see .env.example).
+Traceback (most recent call last):
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\app.py", line 138, in get_orchestrator
+    st.session_state.orchestrator = Orchestrator()
+                                    ^^^^^^^^^^^^^^
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\orchestrator.py", line 62, in __init__
+    self.inventory_agent = InventoryAgent(self.project_endpoint, self.model_deployment_name)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\base_agent.py", line 51, in __init__
+    raise EnvironmentError(
+OSError: AZURE_AI_FOUNDRY_PROJECT_ENDPOINT is not set. Set it in your .env file (see .env.example).
+
+2026-06-16 15:23:27 | WARNING  | agents.orchestrator | Router LLM classification failed, using keyword fallback: 'AgentsOperations' object has no attribute 'create_agent'
+2026-06-16 15:23:27 | INFO     | agents.orchestrator | Routed message to 'inventory' (confidence=0.65)
+2026-06-16 15:23:27 | ERROR    | app | Error handling message: 'AgentsOperations' object has no attribute 'threads'
+Traceback (most recent call last):
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\app.py", line 239, in <module>
+    result = orchestrator.handle_message(session, final_input)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\orchestrator.py", line 172, in handle_message
+    thread_id = agent.create_thread()
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\base_agent.py", line 80, in create_thread
+    thread = self.client.agents.threads.create()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AgentsOperations' object has no attribute 'threads'
+
+2026-06-16 15:33:58 | WARNING  | agents.orchestrator | Router LLM classification failed, using keyword fallback: 'AgentsOperations' object has no attribute 'create_agent'
+2026-06-16 15:33:58 | INFO     | agents.orchestrator | Routed message to 'inventory' (confidence=0.65)
+2026-06-16 15:33:58 | ERROR    | app | Error handling message: 'AgentsOperations' object has no attribute 'create'
+Traceback (most recent call last):
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\app.py", line 239, in <module>
+    result = orchestrator.handle_message(session, final_input)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\orchestrator.py", line 172, in handle_message
+    thread_id = agent.create_thread()
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\base_agent.py", line 132, in create_thread
+    thread = self._threads_op().create()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AgentsOperations' object has no attribute 'create'
+
+2026-06-16 15:34:48 | WARNING  | agents.orchestrator | Router LLM classification failed, using keyword fallback: 'AgentsOperations' object has no attribute 'create_agent'
+2026-06-16 15:34:48 | INFO     | agents.orchestrator | Routed message to 'inventory' (confidence=0.65)
+2026-06-16 15:34:48 | ERROR    | app | Error handling message: 'AgentsOperations' object has no attribute 'create'
+Traceback (most recent call last):
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\app.py", line 239, in <module>
+    result = orchestrator.handle_message(session, final_input)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\orchestrator.py", line 271, in handle_message
+    thread_id = agent.create_thread()
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\base_agent.py", line 132, in create_thread
+    thread = self._threads_op().create()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AgentsOperations' object has no attribute 'create'
+
+2026-06-16 15:36:49 | WARNING  | agents.orchestrator | Router LLM classification failed, using keyword fallback: 'AgentsOperations' object has no attribute 'create_agent'
+2026-06-16 15:36:49 | INFO     | agents.orchestrator | Routed message to 'inventory' (confidence=0.65)
+2026-06-16 15:36:49 | ERROR    | app | Error handling message: 'AgentsOperations' object has no attribute 'threads'
+Traceback (most recent call last):
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\app.py", line 239, in <module>
+    result = orchestrator.handle_message(session, final_input)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\orchestrator.py", line 172, in handle_message
+    thread_id = agent.create_thread()
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\base_agent.py", line 80, in create_thread
+    thread = self.client.agents.threads.create()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AgentsOperations' object has no attribute 'threads'
+
+2026-06-16 15:45:51 | ERROR    | app | Failed to initialize orchestrator: cannot import name 'BaseAgentAgent' from 'agents.base_agent' (C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\base_agent.py)
+Traceback (most recent call last):
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\app.py", line 137, in get_orchestrator
+    from agents.orchestrator import Orchestrator
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\__init__.py", line 6, in <module>
+    from .base_agent import BaseAgentAgent
+ImportError: cannot import name 'BaseAgentAgent' from 'agents.base_agent' (C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\base_agent.py)
+
+2026-06-16 15:46:25 | ERROR    | app | Failed to initialize orchestrator: No module named 'agents.orchestrator_agent'
+Traceback (most recent call last):
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\app.py", line 137, in get_orchestrator
+    from agents.orchestrator import Orchestrator
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\__init__.py", line 9, in <module>
+    from .orchestrator_agent import Orchestrator
+ModuleNotFoundError: No module named 'agents.orchestrator_agent'
+
+2026-06-16 15:46:54 | WARNING  | agents.orchestrator | Router LLM classification failed, using keyword fallback: 'AgentsOperations' object has no attribute 'create_agent'
+2026-06-16 15:46:54 | INFO     | agents.orchestrator | Routed message to 'refund' (confidence=0.65)
+2026-06-16 15:46:54 | ERROR    | app | Error handling message: 'AgentsOperations' object has no attribute 'threads'
+Traceback (most recent call last):
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\app.py", line 239, in <module>
+    result = orchestrator.handle_message(session, final_input)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\orchestrator.py", line 172, in handle_message
+    thread_id = agent.create_thread()
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\base_agent.py", line 80, in create_thread
+    thread = self.client.agents.threads.create()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AgentsOperations' object has no attribute 'threads'
+
+2026-06-16 15:52:34 | WARNING  | agents.orchestrator | Router LLM classification failed, using keyword fallback: 'AgentsOperations' object has no attribute 'create_agent'
+2026-06-16 15:52:34 | INFO     | agents.orchestrator | Routed message to 'general' (confidence=0.65)
+2026-06-16 15:52:34 | ERROR    | app | Error handling message: 'AgentsOperations' object has no attribute 'threads'
+Traceback (most recent call last):
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\app.py", line 239, in <module>
+    result = orchestrator.handle_message(session, final_input)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\orchestrator.py", line 172, in handle_message
+    thread_id = agent.create_thread()
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\base_agent.py", line 80, in create_thread
+    thread = self.client.agents.threads.create()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AgentsOperations' object has no attribute 'threads'
+
+2026-06-16 16:00:49 | WARNING  | agents.orchestrator | Router LLM classification failed, using keyword fallback: 'AgentsOperations' object has no attribute 'create_agent'
+2026-06-16 16:00:49 | INFO     | agents.orchestrator | Routed message to 'general' (confidence=0.30)
+2026-06-16 16:00:49 | ERROR    | app | Error handling message: 'AgentsOperations' object has no attribute 'create_thread'
+Traceback (most recent call last):
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\app.py", line 239, in <module>
+    result = orchestrator.handle_message(session, final_input)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\orchestrator.py", line 172, in handle_message
+    thread_id = agent.create_thread()
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\base_agent.py", line 80, in create_thread
+    thread = self.client.agents.create_thread()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AgentsOperations' object has no attribute 'create_thread'
+
+2026-06-16 16:01:54 | WARNING  | agents.orchestrator | Router LLM classification failed, using keyword fallback: 'AgentsOperations' object has no attribute 'create_agent'
+2026-06-16 16:01:54 | INFO     | agents.orchestrator | Routed message to 'inventory' (confidence=0.65)
+2026-06-16 16:01:54 | ERROR    | app | Error handling message: 'AgentsOperations' object has no attribute 'create_agent'
+Traceback (most recent call last):
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\app.py", line 239, in <module>
+    result = orchestrator.handle_message(session, final_input)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\orchestrator.py", line 172, in handle_message
+    thread_id = agent.create_thread()
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\base_agent.py", line 80, in create_thread
+    thread = self.client.agents.create_agent()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AgentsOperations' object has no attribute 'create_agent'
+
+2026-06-16 16:09:32 | ERROR    | app | Failed to initialize orchestrator: cannot import name 'AgentClientWrapper' from 'agents.base_agent' (C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\base_agent.py)
+Traceback (most recent call last):
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\app.py", line 137, in get_orchestrator
+    from agents.orchestrator import Orchestrator
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\__init__.py", line 7, in <module>
+    from .general_agent import GeneralAgent
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\general_agent.py", line 5, in <module>
+    from agents.base_agent import BaseAgent, AgentClientWrapper
+ImportError: cannot import name 'AgentClientWrapper' from 'agents.base_agent' (C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\base_agent.py)
+
+2026-06-16 16:11:19 | ERROR    | app | Failed to initialize orchestrator: cannot import name 'AgentClientWrapper' from 'agents.base_agent' (C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\base_agent.py)
+Traceback (most recent call last):
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\app.py", line 137, in get_orchestrator
+    from agents.orchestrator import Orchestrator
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\__init__.py", line 8, in <module>
+    from .inventory_agent import InventoryAgent
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\inventory_agent.py", line 5, in <module>
+    from agents.base_agent import BaseAgent, AgentClientWrapper
+ImportError: cannot import name 'AgentClientWrapper' from 'agents.base_agent' (C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\base_agent.py)
+
+2026-06-16 16:11:44 | ERROR    | app | Failed to initialize orchestrator: cannot import name 'AgentClientWrapper' from 'agents.base_agent' (C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\base_agent.py)
+Traceback (most recent call last):
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\app.py", line 137, in get_orchestrator
+    from agents.orchestrator import Orchestrator
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\__init__.py", line 8, in <module>
+    from .inventory_agent import InventoryAgent
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\inventory_agent.py", line 5, in <module>
+    from agents.base_agent import BaseAgent, AgentClientWrapper
+ImportError: cannot import name 'AgentClientWrapper' from 'agents.base_agent' (C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\base_agent.py)
+
+2026-06-16 16:12:36 | ERROR    | app | Failed to initialize orchestrator: cannot import name 'AgentClientWrapper' from 'agents.base_agent' (C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\base_agent.py)
+Traceback (most recent call last):
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\app.py", line 137, in get_orchestrator
+    from agents.orchestrator import Orchestrator
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\__init__.py", line 9, in <module>
+    from .orchestrator import Orchestrator
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\orchestrator.py", line 30, in <module>
+    from agents.refund_agent import RefundAgent
+  File "C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\refund_agent.py", line 5, in <module>
+    from agents.base_agent import BaseAgent, AgentClientWrapper
+ImportError: cannot import name 'AgentClientWrapper' from 'agents.base_agent' (C:\Users\GenAIHYDRPUSR26\Desktop\Retailstore\support-chatbot\agents\base_agent.py)
+
+2026-06-16 16:14:03 | INFO     | agents.base_agent | SDK API mode detected: classic
+2026-06-16 16:14:03 | INFO     | agents.base_agent | SDK API mode detected: classic
+2026-06-16 16:14:03 | INFO     | agents.base_agent | SDK API mode detected: classic
+2026-06-16 16:14:03 | INFO     | agents.base_agent | SDK API mode detected: classic
+2026-06-16 16:14:03 | INFO     | agents.base_agent | SDK API mode detected: classic
+2026-06-16 16:14:03 | WARNING  | agents.orchestrator | Router LLM classification failed, using keyword fallback: 'AgentsOperations' object has no attribute 'create_agent'
+2026-06-16 16:14:03 | INFO     | agents.orchestrator | Routed message to 'refund' (confidence=0.65)

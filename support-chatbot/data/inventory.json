@@ -1,0 +1,521 @@
+{
+  "products": [
+    {
+      "product_id": "P1001",
+      "name": "UltraSound Pro Wireless Earbuds",
+      "category": "Electronics > Audio",
+      "brand": "SonicWave",
+      "price": 4999,
+      "currency": "INR",
+      "stock_quantity": 142,
+      "in_stock": true,
+      "rating": 4.5,
+      "reviews_count": 2310,
+      "description": "Active noise cancelling wireless earbuds with 30hr battery life, IPX5 water resistance.",
+      "specifications": {
+        "battery_life": "30 hours",
+        "connectivity": "Bluetooth 5.3",
+        "water_resistance": "IPX5",
+        "color_options": ["Black", "White", "Navy"]
+      },
+      "warranty": "1 year manufacturer warranty",
+      "delivery_estimate_days": 3
+    },
+    {
+      "product_id": "P1002",
+      "name": "AeroFit Smartwatch Series 4",
+      "category": "Electronics > Wearables",
+      "brand": "AeroTech",
+      "price": 8999,
+      "currency": "INR",
+      "stock_quantity": 0,
+      "in_stock": false,
+      "restock_date": "2026-06-25",
+      "rating": 4.3,
+      "reviews_count": 1820,
+      "description": "Fitness smartwatch with heart rate, SpO2, GPS, and 10-day battery life.",
+      "specifications": {
+        "display": "1.4 inch AMOLED",
+        "battery_life": "10 days",
+        "water_resistance": "5 ATM",
+        "color_options": ["Black", "Silver"]
+      },
+      "warranty": "1 year manufacturer warranty",
+      "delivery_estimate_days": 5
+    },
+    {
+      "product_id": "P1003",
+      "name": "CrispView 27-inch 4K Monitor",
+      "category": "Electronics > Computer Accessories",
+      "brand": "VisionMax",
+      "price": 23999,
+      "currency": "INR",
+      "stock_quantity": 34,
+      "in_stock": true,
+      "rating": 4.7,
+      "reviews_count": 540,
+      "description": "27-inch 4K UHD IPS monitor, 99% sRGB, HDR400, 144Hz refresh rate.",
+      "specifications": {
+        "resolution": "3840x2160",
+        "refresh_rate": "144Hz",
+        "panel_type": "IPS",
+        "ports": ["HDMI 2.1", "DisplayPort 1.4", "USB-C"]
+      },
+      "warranty": "3 year manufacturer warranty",
+      "delivery_estimate_days": 4
+    },
+    {
+      "product_id": "P1004",
+      "name": "BrewMate Automatic Espresso Machine",
+      "category": "Home & Kitchen > Appliances",
+      "brand": "BrewMate",
+      "price": 15499,
+      "currency": "INR",
+      "stock_quantity": 18,
+      "in_stock": true,
+      "rating": 4.2,
+      "reviews_count": 890,
+      "description": "15-bar pressure automatic espresso machine with built-in grinder and milk frother.",
+      "specifications": {
+        "pressure": "15 bar",
+        "capacity": "1.8L water tank",
+        "modes": ["Espresso", "Americano", "Cappuccino", "Latte"]
+      },
+      "warranty": "2 year manufacturer warranty",
+      "delivery_estimate_days": 6
+    },
+    {
+      "product_id": "P1005",
+      "name": "ErgoFlex Mesh Office Chair",
+      "category": "Furniture > Office",
+      "brand": "ErgoLife",
+      "price": 12999,
+      "currency": "INR",
+      "stock_quantity": 7,
+      "in_stock": true,
+      "rating": 4.4,
+      "reviews_count": 1120,
+      "description": "Ergonomic mesh office chair with lumbar support, adjustable armrests, and headrest.",
+      "specifications": {
+        "material": "Mesh + Aluminum base",
+        "max_load": "120 kg",
+        "adjustable": ["Height", "Armrest", "Recline", "Headrest"]
+      },
+      "warranty": "5 year frame warranty",
+      "delivery_estimate_days": 7
+    },
+    {
+      "product_id": "P1006",
+      "name": "NimbleBook Air 14 Laptop",
+      "category": "Electronics > Computers",
+      "brand": "Nimbus",
+      "price": 64999,
+      "currency": "INR",
+      "stock_quantity": 56,
+      "in_stock": true,
+      "rating": 4.6,
+      "reviews_count": 760,
+      "description": "Ultra-thin 14-inch laptop, 16GB RAM, 512GB SSD, 18-hour battery life.",
+      "specifications": {
+        "processor": "Octa-core ARM",
+        "ram": "16GB",
+        "storage": "512GB SSD",
+        "battery_life": "18 hours",
+        "weight": "1.2 kg"
+      },
+      "warranty": "1 year manufacturer warranty",
+      "delivery_estimate_days": 3
+    },
+    {
+      "product_id": "P1007",
+      "name": "PixelShot DSLR Camera Kit",
+      "category": "Electronics > Cameras",
+      "brand": "PixelShot",
+      "price": 54999,
+      "currency": "INR",
+      "stock_quantity": 3,
+      "in_stock": true,
+      "low_stock_threshold": 5,
+      "rating": 4.8,
+      "reviews_count": 320,
+      "description": "24MP DSLR with 18-55mm kit lens, 4K video recording, dual card slots.",
+      "specifications": {
+        "megapixels": "24MP",
+        "video": "4K @ 30fps",
+        "lens_mount": "EF-S",
+        "included": ["Body", "18-55mm lens", "Strap", "Battery", "Charger"]
+      },
+      "warranty": "2 year manufacturer warranty",
+      "delivery_estimate_days": 5
+    },
+    {
+      "product_id": "P1008",
+      "name": "CloudSleep Memory Foam Pillow",
+      "category": "Home & Kitchen > Bedding",
+      "brand": "CloudSleep",
+      "price": 1499,
+      "currency": "INR",
+      "stock_quantity": 412,
+      "in_stock": true,
+      "rating": 4.1,
+      "reviews_count": 5400,
+      "description": "Orthopedic memory foam pillow with breathable cooling gel layer.",
+      "specifications": {
+        "material": "Memory foam + Gel layer",
+        "size": "60x40x12 cm",
+        "cover": "Removable, washable"
+      },
+      "warranty": "6 month warranty",
+      "delivery_estimate_days": 2
+    },
+    {
+      "product_id": "P1009",
+      "name": "VoltCharge 65W GaN Charger",
+      "category": "Electronics > Accessories",
+      "brand": "VoltCharge",
+      "price": 1999,
+      "currency": "INR",
+      "stock_quantity": 980,
+      "in_stock": true,
+      "rating": 4.4,
+      "reviews_count": 3100,
+      "description": "Compact 65W GaN fast charger with 3 ports (2x USB-C, 1x USB-A).",
+      "specifications": {
+        "output": "65W max",
+        "ports": "2x USB-C, 1x USB-A",
+        "technology": "GaN"
+      },
+      "warranty": "1 year warranty",
+      "delivery_estimate_days": 2
+    },
+    {
+      "product_id": "P1010",
+      "name": "TrailBlaze Hiking Backpack 40L",
+      "category": "Sports & Outdoors > Bags",
+      "brand": "TrailBlaze",
+      "price": 3499,
+      "currency": "INR",
+      "stock_quantity": 0,
+      "in_stock": false,
+      "restock_date": null,
+      "discontinued": true,
+      "rating": 4.5,
+      "reviews_count": 670,
+      "description": "40L water-resistant hiking backpack with rain cover and hydration sleeve.",
+      "specifications": {
+        "capacity": "40L",
+        "material": "Ripstop Nylon",
+        "water_resistant": true
+      },
+      "warranty": "1 year warranty",
+      "delivery_estimate_days": null
+    },
+    {
+      "product_id": "P1011",
+      "name": "GlideX Electric Kettle 1.7L",
+      "category": "Home & Kitchen > Appliances",
+      "brand": "GlideX",
+      "price": 1299,
+      "currency": "INR",
+      "stock_quantity": 230,
+      "in_stock": true,
+      "rating": 4.0,
+      "reviews_count": 2890,
+      "description": "1.7L stainless steel electric kettle with auto shut-off and boil-dry protection.",
+      "specifications": {
+        "capacity": "1.7L",
+        "material": "Stainless Steel",
+        "power": "1500W"
+      },
+      "warranty": "2 year warranty",
+      "delivery_estimate_days": 3
+    },
+    {
+      "product_id": "P1012",
+      "name": "FlexFit Adjustable Dumbbell Set",
+      "category": "Sports & Outdoors > Fitness",
+      "brand": "FlexFit",
+      "price": 7499,
+      "currency": "INR",
+      "stock_quantity": 21,
+      "in_stock": true,
+      "rating": 4.6,
+      "reviews_count": 410,
+      "description": "Adjustable dumbbell set 5-25kg per dumbbell, quick-lock dial system.",
+      "specifications": {
+        "weight_range": "5-25 kg per dumbbell",
+        "adjustment": "Dial system",
+        "material": "Cast iron + rubber coating"
+      },
+      "warranty": "3 year warranty",
+      "delivery_estimate_days": 5
+    },
+    {
+      "product_id": "P1013",
+      "name": "NightGlow LED Desk Lamp",
+      "category": "Furniture > Lighting",
+      "brand": "NightGlow",
+      "price": 1799,
+      "currency": "INR",
+      "stock_quantity": 145,
+      "in_stock": true,
+      "rating": 4.3,
+      "reviews_count": 980,
+      "description": "Touch-control LED desk lamp with 5 brightness levels and wireless charging base.",
+      "specifications": {
+        "brightness_levels": 5,
+        "color_temp": "3000K-6500K",
+        "extra_feature": "10W wireless charging pad"
+      },
+      "warranty": "1 year warranty",
+      "delivery_estimate_days": 3
+    },
+    {
+      "product_id": "P1014",
+      "name": "PureAir HEPA Air Purifier",
+      "category": "Home & Kitchen > Appliances",
+      "brand": "PureAir",
+      "price": 9999,
+      "currency": "INR",
+      "stock_quantity": 4,
+      "in_stock": true,
+      "low_stock_threshold": 10,
+      "rating": 4.5,
+      "reviews_count": 1340,
+      "description": "True HEPA air purifier covering up to 450 sq ft, removes 99.97% particles.",
+      "specifications": {
+        "coverage_area": "450 sq ft",
+        "filter": "True HEPA H13",
+        "noise_level": "24-52 dB"
+      },
+      "warranty": "2 year warranty",
+      "delivery_estimate_days": 4
+    },
+    {
+      "product_id": "P1015",
+      "name": "SnapType Mechanical Keyboard",
+      "category": "Electronics > Computer Accessories",
+      "brand": "SnapType",
+      "price": 5499,
+      "currency": "INR",
+      "stock_quantity": 89,
+      "in_stock": true,
+      "rating": 4.7,
+      "reviews_count": 1560,
+      "description": "Hot-swappable mechanical keyboard, RGB backlight, tactile brown switches.",
+      "specifications": {
+        "switch_type": "Tactile Brown (hot-swappable)",
+        "layout": "75%",
+        "connectivity": "USB-C wired + Bluetooth 5.1"
+      },
+      "warranty": "1 year warranty",
+      "delivery_estimate_days": 3
+    },
+    {
+      "product_id": "P1016",
+      "name": "RoamLite Carry-On Suitcase",
+      "category": "Travel > Luggage",
+      "brand": "RoamLite",
+      "price": 4299,
+      "currency": "INR",
+      "stock_quantity": 67,
+      "in_stock": true,
+      "rating": 4.2,
+      "reviews_count": 720,
+      "description": "Hardshell carry-on suitcase with 360° spinner wheels and TSA lock.",
+      "specifications": {
+        "size": "20 inch cabin",
+        "material": "Polycarbonate",
+        "lock": "TSA approved"
+      },
+      "warranty": "5 year warranty",
+      "delivery_estimate_days": 4
+    },
+    {
+      "product_id": "P1017",
+      "name": "ZenBlend Personal Blender",
+      "category": "Home & Kitchen > Appliances",
+      "brand": "ZenBlend",
+      "price": 2199,
+      "currency": "INR",
+      "stock_quantity": 312,
+      "in_stock": true,
+      "rating": 4.1,
+      "reviews_count": 1980,
+      "description": "Compact personal blender with 2 travel bottles, 500W motor.",
+      "specifications": {
+        "power": "500W",
+        "capacity": "2x 600ml bottles",
+        "blades": "Stainless steel 4-blade"
+      },
+      "warranty": "1 year warranty",
+      "delivery_estimate_days": 2
+    },
+    {
+      "product_id": "P1018",
+      "name": "GuardCam Wireless Security Camera",
+      "category": "Electronics > Smart Home",
+      "brand": "GuardCam",
+      "price": 3299,
+      "currency": "INR",
+      "stock_quantity": 0,
+      "in_stock": false,
+      "restock_date": "2026-07-02",
+      "rating": 4.4,
+      "reviews_count": 2100,
+      "description": "1080p wireless security camera with night vision, motion alerts, two-way audio.",
+      "specifications": {
+        "resolution": "1080p",
+        "night_vision": true,
+        "storage": "Cloud + microSD up to 256GB"
+      },
+      "warranty": "1 year warranty",
+      "delivery_estimate_days": 4
+    },
+    {
+      "product_id": "P1019",
+      "name": "WoolWarm Knit Throw Blanket",
+      "category": "Home & Kitchen > Bedding",
+      "brand": "WoolWarm",
+      "price": 1899,
+      "currency": "INR",
+      "stock_quantity": 198,
+      "in_stock": true,
+      "rating": 4.3,
+      "reviews_count": 640,
+      "description": "Soft chunky knit throw blanket, 130x170cm, machine washable.",
+      "specifications": {
+        "size": "130x170 cm",
+        "material": "Acrylic-wool blend",
+        "care": "Machine washable"
+      },
+      "warranty": "No warranty (textile item)",
+      "delivery_estimate_days": 3
+    },
+    {
+      "product_id": "P1020",
+      "name": "TurboPup Pet Hair Vacuum",
+      "category": "Home & Kitchen > Appliances",
+      "brand": "TurboPup",
+      "price": 6499,
+      "currency": "INR",
+      "stock_quantity": 41,
+      "in_stock": true,
+      "rating": 4.5,
+      "reviews_count": 510,
+      "description": "Cordless vacuum designed for pet hair, with motorized brush and HEPA filter.",
+      "specifications": {
+        "battery_life": "45 minutes",
+        "filter": "HEPA",
+        "weight": "1.8 kg"
+      },
+      "warranty": "1 year warranty",
+      "delivery_estimate_days": 4
+    },
+    {
+      "product_id": "P1021",
+      "name": "AeroFit Smartwatch Series 3",
+      "category": "Electronics > Wearables",
+      "brand": "AeroTech",
+      "price": 5999,
+      "currency": "INR",
+      "stock_quantity": 78,
+      "in_stock": true,
+      "rating": 4.1,
+      "reviews_count": 3200,
+      "description": "Previous gen fitness smartwatch with heart rate monitor and 7-day battery.",
+      "specifications": {
+        "display": "1.3 inch AMOLED",
+        "battery_life": "7 days",
+        "water_resistance": "3 ATM",
+        "color_options": ["Black", "Rose Gold"]
+      },
+      "warranty": "1 year manufacturer warranty",
+      "delivery_estimate_days": 3
+    },
+    {
+      "product_id": "P1022",
+      "name": "UltraSound Lite Wired Earphones",
+      "category": "Electronics > Audio",
+      "brand": "SonicWave",
+      "price": 799,
+      "currency": "INR",
+      "stock_quantity": 560,
+      "in_stock": true,
+      "rating": 3.9,
+      "reviews_count": 4100,
+      "description": "Budget in-ear wired earphones with mic, tangle-free cable.",
+      "specifications": {
+        "connectivity": "3.5mm wired",
+        "mic": true,
+        "color_options": ["Black", "Blue"]
+      },
+      "warranty": "6 month warranty",
+      "delivery_estimate_days": 2
+    },
+    {
+      "product_id": "P1023",
+      "name": "CrispView 24-inch FHD Monitor",
+      "category": "Electronics > Computer Accessories",
+      "brand": "VisionMax",
+      "price": 8999,
+      "currency": "INR",
+      "stock_quantity": 102,
+      "in_stock": true,
+      "rating": 4.2,
+      "reviews_count": 980,
+      "description": "24-inch Full HD IPS monitor, 75Hz refresh rate, frameless design.",
+      "specifications": {
+        "resolution": "1920x1080",
+        "refresh_rate": "75Hz",
+        "panel_type": "IPS",
+        "ports": ["HDMI", "VGA"]
+      },
+      "warranty": "3 year warranty",
+      "delivery_estimate_days": 3
+    },
+    {
+      "product_id": "P1024",
+      "name": "BrewMate Manual Drip Coffee Maker",
+      "category": "Home & Kitchen > Appliances",
+      "brand": "BrewMate",
+      "price": 1599,
+      "currency": "INR",
+      "stock_quantity": 187,
+      "in_stock": true,
+      "rating": 4.0,
+      "reviews_count": 720,
+      "description": "Manual pour-over drip coffee maker with reusable steel filter.",
+      "specifications": {
+        "capacity": "600ml",
+        "filter": "Reusable stainless steel",
+        "material": "Borosilicate glass"
+      },
+      "warranty": "1 year warranty",
+      "delivery_estimate_days": 3
+    },
+    {
+      "product_id": "P1025",
+      "name": "NimbleBook Pro 16 Laptop",
+      "category": "Electronics > Computers",
+      "brand": "Nimbus",
+      "price": 119999,
+      "currency": "INR",
+      "stock_quantity": 12,
+      "in_stock": true,
+      "rating": 4.8,
+      "reviews_count": 290,
+      "description": "16-inch pro laptop, 32GB RAM, 1TB SSD, dedicated GPU, 20-hour battery.",
+      "specifications": {
+        "processor": "12-core ARM Pro",
+        "ram": "32GB",
+        "storage": "1TB SSD",
+        "gpu": "16-core integrated + discrete",
+        "battery_life": "20 hours",
+        "weight": "2.1 kg"
+      },
+      "warranty": "1 year manufacturer warranty",
+      "delivery_estimate_days": 5
+    }
+  ]
+}
